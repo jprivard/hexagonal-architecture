@@ -1,8 +1,8 @@
 import { CoreApplication } from './core/core.js';
-import { MemoryAdapter } from './outgoing/memory.js';
-import { HttpCallAdapter } from './outgoing/http.js';
-import { CliAdapter } from './incoming/cli.js';
-import { HttpAdapter } from './incoming/http.js';
+import { MemoryAdapter } from './outbound/memory.js';
+import { HttpCallAdapter } from './outbound/http.js';
+import { CliAdapter } from './inbound/cli.js';
+import { HttpAdapter } from './inbound/http.js';
 
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
